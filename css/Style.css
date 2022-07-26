@@ -1,0 +1,106 @@
+/*
+ *Import Fonts
+ */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap");
+
+/*
+ *Css Variables
+ */
+:root {
+	--font-bebas: "Bebas Neue", cursive;
+	--font-robot: "Roboto", sans-serif;
+	--main-color: #fa804c;
+	--main-bg: #fff9f4;
+	--text-color: #363958;
+}
+
+/*
+ *Common Styles
+ */
+/*
+  *Fonts classes
+  */
+.font-bebas {
+	font-family: var(--font-bebas);
+}
+.font-roboto {
+	font-family: var(--font-robot);
+}
+.font-roboto-500 {
+	font-family: var(--font-robot);
+	font-weight: 500;
+}
+.font-roboto-700 {
+	font-family: var(--font-robot);
+	font-weight: 700;
+}
+.font-roboto-900 {
+	font-family: var(--font-robot);
+	font-weight: 900;
+}
+/*
+  *Color classes
+  */
+.main-color {
+	color: var(--main-color);
+}
+.main-bg {
+	background-color: var(--main-bg);
+}
+.text-color {
+	color: var(--text-color);
+}
+/*
+ *custom button
+ */
+.react-btn,
+.react-btn:active,
+.react-btn:focus {
+	background: linear-gradient(180deg, #3d4ff3 0%, #3543bc 100%);
+	border-radius: 10px;
+	width: 170px;
+	height: 60px;
+	font-family: var(--font-robot);
+	color: #fff;
+	outline: 0;
+	border: none;
+	transition: all 0.3s;
+	text-transform: uppercase;
+}
+.react-btn:hover {
+	border: none;
+	color: #fff;
+}
+/*
+ *Header Style Start
+ */
+.header {
+	background: var(--main-bg);
+}
+
+.navbar {
+	padding-top: 40px;
+	background-image: url("../images/bg-icon.png");
+	background-repeat: no-repeat;
+	background-position: 36% top;
+}
+.navbar img {
+	width: 290px;
+}
+li.nav-item {
+	margin-right: 48px;
+	font-size: 16px;
+}
+.banner {
+	padding: 100px 0 107px 0;
+}
+.banner-text {
+	padding: 100px 0 0 186px;
+}
+.banner-title {
+	font-size: 80px;
+	line-height: 80px;
+}
+/*
+ *Header Style End
+ */
